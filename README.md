@@ -54,23 +54,6 @@ Model performance was assessed using:
 
 ---
 
-## Repository Structure
-Amex_Offerings/
-│
-├── predictions.csv # Model-generated predictions
-├── proba_predictions.csv # Probability-based model predictions
-├── proba_predictions_2.csv # Secondary probability set
-├── submission.csv # Final formatted submission
-│
-├── xgb_ranker_map7.pkl # Trained XGBoost ranker model
-├── xgb_prob_map7.pkl # Trained XGBoost probability model
-├── lgb_model.pkl # Trained LightGBM model
-│
-└── README.md # Project documentation
-
-
----
-
 ## Tools and Technologies
 - **Python** (v3.9+)
 - **Core Libraries:**
