@@ -38,22 +38,6 @@ New variables were engineered to improve model accuracy:
 - Interaction terms between key variables
 - Normalization and log transformations for scaling
 
-### 3. Model Development
-Multiple gradient boosting models were trained and optimized:
-- **XGBoost Ranker** (`xgb_ranker_map7.pkl`)
-- **XGBoost Probability Model** (`xgb_prob_map7.pkl`)
-- **LightGBM Classifier** (`lgb_model.pkl`)
-
-A blending approach combining outputs from these models produced the final submission.
-
-### 4. Evaluation
-Model performance was assessed using:
-- Cross-validation on training data
-- Public leaderboard results from the competition
-- Consistency between validation and leaderboard metrics
-
----
-
 ## Tools and Technologies
 - **Python** (v3.9+)
 - **Core Libraries:**
